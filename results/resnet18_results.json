@@ -1,0 +1,46 @@
+{
+    "model": "ResNet18",
+    "training_accuracy": 81.0,
+    "training_loss": 0.5355,
+    "validation_accuracy": 83.49,
+    "validation_loss": 0.4726,
+    "classification_report": {
+        "CNV": {
+            "precision": 0.8607460507102084,
+            "recall": 0.8713882542668996,
+            "f1-score": 0.866034459730199,
+            "support": 7441.0
+        },
+        "DME": {
+            "precision": 0.6633707865168539,
+            "recall": 0.6502202643171806,
+            "f1-score": 0.6567296996662959,
+            "support": 2270.0
+        },
+        "DRUSEN": {
+            "precision": 0.6328871892925431,
+            "recall": 0.19210679048171794,
+            "f1-score": 0.2947462154942119,
+            "support": 1723.0
+        },
+        "NORMAL": {
+            "precision": 0.8606449345400229,
+            "recall": 0.9576652326945639,
+            "f1-score": 0.9065667083159794,
+            "support": 10228.0
+        },
+        "accuracy": 0.8349182900932508,
+        "macro avg": {
+            "precision": 0.754412240264907,
+            "recall": 0.6678451354400905,
+            "f1-score": 0.6810192708016716,
+            "support": 21662.0
+        },
+        "weighted avg": {
+            "precision": 0.8218910565208347,
+            "recall": 0.8349182900932508,
+            "f1-score": 0.817798488368907,
+            "support": 21662.0
+        }
+    }
+}
